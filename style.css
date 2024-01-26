@@ -1,0 +1,71 @@
+
+
+
+
+body{
+  background-color: rgb(197, 235, 135);
+  display: flex;
+}
+.undo{
+  background-color: blue;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+.textButton{
+  
+  background-color: rgb(0, 255, 251);
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+
+}
+.redo{
+  background-color: rgb(247, 59, 228);
+  
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+
+}
+
+#canvas{
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  /* color: gray; */
+  
+  border: 1px solid black;
+  width: 700px;
+  height: 100vh;
+  margin: 0px 50px;
+}
+#textInput{
+  width: 400px;
+  height: 30px;
+  background-color: rgb(253, 251, 251);
+  border: 1px solid gray;
+  border-radius: 10px ;
+}
+input{
+  margin-top: 10px;
+}
+
+.textLabel{
+  font-weight: bold;
+  font-size: 20px;
+  /* color: gray; */
+}
+
+#sizeSelect,#fontSelect{
+  width: 270px;
+}
